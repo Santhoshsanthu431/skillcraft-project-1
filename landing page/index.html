@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rolls Royce</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: black;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #333;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 1em;
+            display: block;
+        }
+        nav a:hover {
+            background: #555;
+        }
+        .hero {
+            background: url('https://mediapool.bmwgroup.com/cache/P9/202303/P90498647/P90498647-rolls-royce-black-badge-wraith-black-arrow-600px.jpg') no-repeat center center/cover;
+            height: 400px;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-shadow: 2px 2px 4px black;
+        }
+        .hero h2 {
+            font-size: 3em;
+        }
+        .content {
+            padding: 2em;
+            text-align: center;
+        }
+        .content h3 {
+            font-size: 2em;
+            color: #333;
+        }
+        .content p {
+            font-size: 1.2em;
+            color: #555;
+        }
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+        footer a {
+            color: #00f;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Rolls Royce</h1>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#models">Models</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="hero">
+    </div>
+    <div class="content" id="about">
+        <h3>About Rolls Royce</h3>
+        <div class="content" id="about">
+            <p>Rolls-Royce is a symbol of luxury, engineering excellence, and timeless elegance. Established in 1904 by Charles Rolls and Henry Royce, the brand has become synonymous with bespoke automotive craftsmanship.</p>
+            <p>Known for producing some of the most iconic vehicles in history, Rolls-Royce combines advanced technology with meticulous attention to detail. Each car is a masterpiece, tailored to the specific desires of its owner, featuring the finest materials and cutting-edge innovations.</p>
+            <p>The spirit of Rolls-Royce is encapsulated in its emblematic mascot, the <strong>Spirit of Ecstasy</strong>, which graces the bonnet of every vehicle. Rolls-Royce's model lineup includes the opulent <strong>Phantom</strong>, the refined <strong>Ghost</strong>, the sporty <strong>Wraith</strong>, and the luxurious <strong>Cullinan SUV</strong>.</p>
+            <p>Rolls-Royce doesn't just build cars; it crafts experiences of unparalleled prestige and comfort, setting the benchmark for automotive excellence worldwide.</p>
+            <a href="https://www.rolls-roycemotorcars.com" target="_blank">Visit Official Site</a>
+        
+    </div>
+    <div class="content" id="models">
+        <h3>Popular Models</h3>
+        <p>Explore our iconic lineup: Phantom, Ghost, Wraith, and more.</p>
+       <div class="models-gallery">
+        <div class="model">
+            <img src="data:image/jpeg;base64,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" alt="Rolls Royce Phantom" style="width:75%; height:auto;">
+            <p><strong>Phantom</strong></p>
+        </div>
+        <div class="model">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaskIH8-vZP62IV0KDZwVDWRVkw8sBqLFwOA&s" alt="Rolls Royce Ghost" style="width:75%; height:auto;">
+            <p><strong>Ghost</strong></p>
+        </div>
+        <div class="model">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAo375-sY8u5b_il9GV_1HYmQyscLEt3cLgA&s" alt="Rolls Royce Wraith" style="width:75%; height:auto;">
+            <p><strong>Wraith</strong></p>
+        </div>
+        <div class="model">
+            <img src="data:image/jpeg;base64,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" alt="Rolls Royce Cullinan" style="width:75%; height:auto;">
+            <p><strong>Cullinan</strong></p>
+        </div>
+    </div>
+</div>
+    </div>
+    <div class="content" id="contact">
+        <h3>Contact Us</h3>
+        <p>For inquiries, please <a href="https://www.rolls-roycemotorcars.com/en-GB/contact-us.html" target="_blank">reach out here</a>.</p>
+    </div>
+    <footer>
+        <p>For more information, visit the official <a href="https://www.rolls-roycemotorcars.com" target="_blank">Rolls Royce Website</a>.</p>
+    </footer>
+</body>
+</html>
